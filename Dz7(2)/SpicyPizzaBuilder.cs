@@ -5,14 +5,14 @@ class SpicyPizzaBuilder : PizzaBuilder
 {
     public override void BuildDough()
     {
-        pizza.SetDough("panbaked");
+        pizza?.SetDough("panbaked");
     }
     public override void BuildSauce()
     {
-        pizza.SetSauce("hot");
+        pizza?.SetSauce("hot");
     }
     public override void BuildTopping()
     {
-        pizza.SetTopping("pepparoni+salami");
+        pizza?.SetTopping("pepparoni+salami");
     }
 }
